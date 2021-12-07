@@ -24,3 +24,7 @@ if(isset($_POST["acc"])){
     fclose($test);
     	$huongdz['num']++;
 $_SESSION['huongdz'] = $huongdz;
+
+}
+echo $huongdz['num'];
+    ?>
